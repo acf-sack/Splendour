@@ -4,3 +4,38 @@
     scroll-behavior: smooth;
 
 }
+
+#home{
+height: 650px;
+background: url("../img/cool-background.png");
+
+}
+.header{
+    position: relative;
+    color: white;
+    top:200px;
+}
+.header h1{
+    font-size: 100px;
+}
+.buttons-header{
+    margin-top: 30px;
+}
+.button-row .col{
+    padding: 0px !important;
+}
+.button-row {
+    --bs-gutter-x: 0rem;
+}
+.button-main{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    background: none;
+    border: solid white 2px;
+    border-radius: 30px;
+}
+.button-main:hover{
+    background-color: aliceblue;
+    color: #09051e;
+}
