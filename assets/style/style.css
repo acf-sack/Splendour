@@ -4,11 +4,22 @@
     scroll-behavior: smooth;
 
 }
-
+html{
+    scroll-padding-top: 80px;
+}
 #home{
-height: 650px;
-background: url("../img/cool-background.png");
+height: 700px;
+background: url("../img/bg.png");
 
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-nav li a , .navbar-brand{
+    color: #ffffff !important ;
 }
 .header{
     position: relative;
@@ -20,12 +31,10 @@ background: url("../img/cool-background.png");
 }
 .buttons-header{
     margin-top: 30px;
-}
-.button-row .col{
-    padding: 0px !important;
-}
-.button-row {
-    --bs-gutter-x: 0rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
 }
 .button-main{
     color: aliceblue;
@@ -33,9 +42,26 @@ background: url("../img/cool-background.png");
     padding: 10px;
     background: none;
     border: solid white 2px;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 .button-main:hover{
     background-color: aliceblue;
     color: #09051e;
+}
+#about{
+    background-color: #000000;
+    padding: 80px;
+    
+}
+.acf-img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+.about-header{
+    font-size: 50px;
+    color: #ffffff;
+}
+.about-text{
+    font-size: 20px;
+    color: #d8d8d8;
 }
