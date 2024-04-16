@@ -48,7 +48,7 @@ background: url("../img/bg.png");
     text-decoration: none;
     color: #ffffff;
 }
-.button-main:hover,.button-1-link:hover{
+.button-main:hover{
     background-color: aliceblue;
     color: #09051e;
 }
