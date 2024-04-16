@@ -1,4 +1,8 @@
 
 $(function(){
-    $("#nav-placeholders").load("../assets/placeholders/nav.html");
+    $("#nav-placeholder").load("../assets/placeholders/nav.html");
+  });
+
+  $(function(){
+    $("#footer-placeholder").load("../assets/placeholders/footer.html");
   });
