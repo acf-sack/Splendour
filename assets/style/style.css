@@ -11,16 +11,36 @@ html{
 height: 700px;
 background: url("../img/bg.png");
 
+
 }
 .navbar{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
     position: fixed;
     z-index: 1;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow:5px 5px 30px #000000;
+    padding: 10px;
+    animation: nav-load 500ms ease-out;
+}
+@keyframes nav-load{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.nav{
+    display: flex;
+    justify-content: center;
 }
 .navbar-nav li a , .navbar-brand{
-    color: #ffffff !important ;
+    color: #000000 !important ;
+    animation: li-load 5s ;
 }
+
 .header{
     position: relative;
     color: white;
@@ -56,16 +76,19 @@ background: url("../img/bg.png");
     background: url("../img/bg-2.png");
     background-size: cover;
     padding: 80px;
+    padding-top: 100px;
     
 }
 
 #competitions{
     background: url("../img/bg-2.png");
     padding: 80px;
+    padding-top: 100px;
 }
 #Competition-sub{
     background: url("../img/bg-2.png");
     padding: 80px;
+    padding-top: 100px;
 }
 .acf-img{
     width: 200px;
@@ -76,7 +99,7 @@ background: url("../img/bg.png");
     color: #ffffff;
 }
 .about-text{
-    font-size: 20px;
+    font-size: 25px;
     color: #d8d8d8;
 }
 .contact-heading{
@@ -167,7 +190,7 @@ background: url("../img/bg.png");
 scale: 1.0;
 
 }
-.card:hover{
+#competitions .card:hover{
     scale: 1.04;
     transition: 0.5s;
 }
@@ -199,4 +222,10 @@ scale: 1.0;
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+@media (max-width:600px) {
+    #home , #about , #contact , #competitions , #Competition-sub{
+        padding: 20px;
+        padding-top: 80px;
+    }
 }

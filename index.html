@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <!--bootstraps-link-->
     <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Cyber Pulse</title>
 </head>
 <body>
@@ -20,10 +21,10 @@
 <section id="home">
   <div class="header">
     <center>
-      <h1 class="main-text">
+      <h1 class="main-text" data-aos="zoom-in" data-aos-once="true">
         Cyber Pulse
       </h1>
-      <div class="buttons-header">
+      <div class="buttons-header" data-aos="zoom-in" data-aos-once="true">
             
               <a href="./competitions.html" class="button-1-link"><button class="button-main button-1">
                 Competitions
@@ -43,18 +44,18 @@
 <!--Home section ends here-->
 <!--About section starts here-->
 <section id="about">
-  <h1 class="about-header"> <center>Cyber Pulse</center></h1><br>
+  <h1 class="about-header"  data-aos="zoom-in" data-aos-once="true" > <center>Cyber Pulse</center></h1><br>
    <center>
-    <div class="acf-img-div">
+    <div class="acf-img-div"  data-aos="zoom-in" data-aos-once="true" >
       <img src="assets/img/acf.png" alt="" srcset="" class="acf-img">
     </div>
    </center>
-  <div class="about-text">St. Anthony's College Kandy's Computer Fraternity hosts Cyber Pulse annually,
+  <div class="about-text"  data-aos="zoom-in" data-aos-once="true" >St. Anthony's College Kandy's Computer Fraternity hosts Cyber Pulse annually,
      celebrating ICT Day with a showcase of digital talent. This event features competitions 
      in web design, photo manipulation, poster design, 3D rendering, logo design, game development,
       and e-sports, providing a platform for students to demonstrate their skills and creativity in various tech domains.</div>
       <br>
-      <center>
+      <center   data-aos="zoom-in" data-aos-once="true" >
         <a href="./competitions.html">
           <button class="button-main">
             Competitions
@@ -69,14 +70,14 @@
 <!--Contact section starts here-->
 <section id="contact">
   <center>
-    <h1 class="contact-heading">
+    <h1 class="contact-heading"  data-aos="zoom-in" data-aos-once="true">
       Contact Us
     </h1>
-    <div class="contact-text">
+    <div class="contact-text"   data-aos="zoom-in" data-aos-once="true">
       Feel free to ask the questions and to aware about the event
     </div>
     
-    <div class="contact-cards">
+    <div class="contact-cards"  data-aos="zoom-in" data-aos-once="true">
       <div class="row justify-content-center">
         <div class="col-9 col-md-6">
           <div class="contact-card card">
@@ -104,7 +105,7 @@
         </div>
       </div>
     </div>
-    <div class="social-media">
+    <div class="social-media"  data-aos="zoom-in" data-aos-once="true">
       <div class="icon">
         <i class="fa-brands fa-facebook-f"></i>
       </div>
@@ -128,6 +129,10 @@
   <script src="https://kit.fontawesome.com/8d78513a47.js" crossorigin="anonymous"></script>
   <!--Font awsome ends-->
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>
