@@ -63,6 +63,10 @@ background: url("../img/bg.png");
     background: url("../img/bg-2.png");
     padding: 80px;
 }
+#Competition-sub{
+    background: url("../img/bg-2.png");
+    padding: 80px;
+}
 .acf-img{
     width: 200px;
     padding-bottom: 20px;
@@ -183,4 +187,16 @@ scale: 1.0;
 .card-button:hover{
     background:#ffffff;
     color: #000000;
+}
+.competition-name{
+    color: #ffffff;
+    font-size: 60px;
+}
+.titles{
+    color: #d8d8d8;
+}
+.titile-text{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
