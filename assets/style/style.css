@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Russo+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     scroll-behavior: smooth;
 
@@ -11,8 +9,9 @@ html{
 
 #home{
 height: 700px;
-background: url("../img/bg.png") no-repeat;
-background-size: cover;
+background: url("../img/bg-1-1.jpg")no-repeat;
+background-position: center center;
+background-size:cover;
 
 
 }
@@ -51,7 +50,6 @@ background-size: cover;
 }
 .header h1{
     font-size: 120px;
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
@@ -69,7 +67,6 @@ background-size: cover;
     background: none;
     border: solid white 2px;
     border-radius: 25px;
-    font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -77,25 +74,29 @@ background-size: cover;
     text-decoration: none;
     color: #ffffff;
 }
+.button-1{
+    background-color: #ffffff;
+    color: #000;
+}
 .button-main:hover{
     background-color: rgb(252, 252, 252);
     color: #09051e;
 }
 #about , #contact  {
-    background: #000000;
+    background: #050d1b;
     background-size: cover;
     padding: 80px;
-    padding-top: 100px;
+    padding-top: 50px;
     
 }
 
 #competitions{
-    background:#000000;
+    background:#050d1b;
     padding: 80px;
     padding-top: 100px;
 }
 #Competition-sub{
-    background: #000000;
+    background: #050d1b;
     padding: 80px;
     padding-top: 100px;
 }
@@ -106,7 +107,6 @@ background-size: cover;
 .about-header{
     font-size: 90px;
     color: #ffffff;
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
@@ -115,21 +115,18 @@ background-size: cover;
     color: #d6d6d6;
     padding: 100px;
     padding-top: 0px;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 .contact-heading{
     color: #ffffff;
     font-size: 90px;
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 .contact-text{
     font-size: 30px;
     color: #d8d8d8;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -139,7 +136,6 @@ background-size: cover;
 .contact-card{
     margin: 20px;
     font-size: 20px;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -163,13 +159,12 @@ background-size: cover;
 .icon:hover{
     background-color: white;
     border: none;
-    color: #000000;
+    color: #050d1b;
 }
 .footer{
-    background-color:  #000000;
+    background-color:  #050d1b;
     color: #ffffff;
     padding: 50px;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -198,7 +193,6 @@ background-size: cover;
 .competition-title{
     color: #ffffff;
     font-size: 90px;
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
@@ -217,12 +211,10 @@ background-size: cover;
 
 }
 .card-titile h3{
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 .card-description{
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -258,13 +250,11 @@ scale: 1.0;
 .competition-name{
     color: #ffffff;
     font-size: 60px;
-    font-family: "Russo One", sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 .titles{
     color: #d8d8d8;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -272,7 +262,6 @@ scale: 1.0;
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 50px;
-    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
