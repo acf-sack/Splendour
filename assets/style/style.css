@@ -46,7 +46,10 @@ background-size:cover;
     font-size: 20px;
     animation: li-load 5s ;
 }
-
+.nav-img{
+    width: 160px;
+    height:26px;
+}
 .header{
     position: relative;
     color: white;
@@ -71,8 +74,9 @@ background-size:cover;
     background: none;
     border: solid white 2px;
     border-radius: 25px;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 200px;
 }
 .button-1-link{
     text-decoration: none;
@@ -85,6 +89,11 @@ background-size:cover;
 .button-main:hover{
     background-color: rgb(252, 252, 252);
     color: #09051e;
+}
+.main-text{
+    width: 90%;
+    position: relative;
+    top: -30px;
 }
 #about , #contact  {
     background: #050d1b;
@@ -109,10 +118,8 @@ background-size:cover;
     padding-bottom: 20px;
 }
 .about-header{
-    font-size: 90px;
-    color: #ffffff;
-    font-style: normal;
-    font-weight: 700;
+width: 80%;
+height: auto;
 }
 .about-text{
     font-size: 25px;
@@ -266,8 +273,7 @@ scale: 1.0;
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 50px;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-size: 20px;
 }
 @media (max-width:700px) {
     #home , #about , #contact , #competitions , #Competition-sub{
