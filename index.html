@@ -28,16 +28,14 @@
       
       <div class="buttons-header" data-aos="zoom-in" data-aos-once="true">
             
-              <a href="./competitions.html" class="button-1-link"><button class="button-main button-1">
-                Competitions
-              </button></a>
-            
-            
-              <a href="#about">
-                <button  class="button-main button-2">
-                  About
-                </button>
-              </a>
+              <a href="./competitions.html" class="button-2">
+                <i class="button-i"></i><i class="button-i"></i>
+                <span class="button-s"><b>Competitions</b></span>
+            </a>
+            <a href="#about" class="button-2">
+              <i class="button-i"></i><i class="button-i"></i>
+              <span class="button-s"><b>About Us</b></span>
+          </a>
             
       </div>
     </center>
@@ -55,11 +53,10 @@
       and e-sports, providing a platform for students to demonstrate their skills and creativity in various tech domains.</div>
       <br>
       <center   data-aos="zoom-in" data-aos-once="true" >
-        <a href="./competitions.html">
-          <button class="button-main">
-            Competitions
-          </button>
-        </a>
+        <a href="./competitions.html" class="button-2">
+          <i class="button-i"></i><i class="button-i"></i>
+          <span class="button-s"><b>Competitions</b></span>
+      </a>
         
       </center><br><br>
      <hr style="color: white;">
@@ -127,6 +124,16 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    let btns = document.querySelectorAll('a.button-2');
+    btns.forEach(btn => {
+      btn.addEventListener('mousemove', e => {
+        let rect = e.target.getBoundingClientRect();
+        let x = e.clientX - rect.left;
+        btn.style.setProperty('--x', x + 'deg');
+      });
+    });
   </script>
 <script src="assets/js/script.js"></script>
 <script type="text/javascript" src="assets/js/particles.js"></script>
