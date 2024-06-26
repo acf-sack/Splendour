@@ -233,6 +233,7 @@ height: auto;
 .contact-detail{
     padding-top: 70px;
     padding-bottom: 70px;
+    display: flex;
 }
 .contact-card{
     padding: 25px;
