@@ -5,7 +5,7 @@
 
   
   #particles-js, #particles-js-contact, #particles-js-comp {
-    opacity: 20%;
+    opacity: 40%;
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ background-size:cover;
    
     -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(12px);
-    width: 80%;
+    width: 90%;
     position: fixed;
     z-index: 3;
     margin-top: 20px;
@@ -62,9 +62,22 @@ background-size:cover;
     font-size: 20px;
     animation: li-load 5s ;
 }
+.nav-item{
+    padding-right: 20px;
+}
 .nav-img{
     width: 120px;
     height:55px;
+}
+.navbar-toggler{
+    color: #ffffff;
+}
+.fa-solid{
+    color: #ffffff;
+}
+
+#navbarNavDropdown{
+    max-height: 100% !important;
 }
 .header{
     position: relative;
@@ -107,7 +120,7 @@ background-size:cover;
     color: #09051e;
 }
 .main-text{
-    width: 90%;
+    width: 60%;
     position: relative;
     top: -30px;
 }
@@ -170,6 +183,10 @@ height: auto;
     font-size: 20px;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 20px;
+}
+.card-heading{
+    font-weight: 600;
 }
 .social-media{
     display: flex;
@@ -297,9 +314,20 @@ scale: 1.0;
     margin-bottom: 50px;
     font-size: 18px;
 }
+@media (max-width:800px){
+    .contact-card{
+        width: 100%;
+    }
+    .contact-card .row{
+        width: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
+}
 @media (max-width:700px) {
     #home , #about , #contact , #competitions , #Competition-sub{
-        padding: 20px;
+        padding: 10px;
         padding-top: 80px;
     }
     .about-header , .contact-heading , .competition-title{
@@ -307,5 +335,34 @@ scale: 1.0;
     }
     .about-text{
         padding: 10px;
+    }
+    .button-main{
+        font-size: 15px;
+        width: 150px;
+    }
+    .main-text{
+        width: 100%;
+        position: relative;
+        top: -30px;
+    }
+    .contact-card{
+        width: 100%;
+    }
+    .contact-card .row{
+        width: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+@media (max-width:500px){
+    .button-main{
+        font-size: 10px;
+        width: 100px;
+    }
+    .card-heading{
+        font-size:15px;
+    }
+    .card-details{
+        font-size: 10px;
     }
 }
