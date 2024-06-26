@@ -133,6 +133,10 @@ background-size:cover;
     background: #050d1b;
     padding: 150px;
     padding-top: 100px;
+    background-size: cover;
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
 }
 .acf-img{
     width: 200px;
