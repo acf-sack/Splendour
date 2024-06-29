@@ -338,14 +338,33 @@ height: auto;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+.competition-card .card-img-div {
+    position: relative;
+}
+
+.competition-card .card-img-div .card-img{
+    display: block;
+    width: 100%;
+}
+
+.competition-card .card-img-div .image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent -20%, #131B27 90%);
+    pointer-events: none; /* Ensure the overlay does not interfere with other elements */
+}
 .card-img{
  width: 100%;
  height: 300px;
  object-fit: cover;
  margin-bottom: 20px;
 scale: 1.0;
-
 }
+
 #competitions .card:hover{
     scale: 1.04;
     transition: 0.5s;
