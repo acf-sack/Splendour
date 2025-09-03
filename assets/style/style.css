@@ -28,7 +28,7 @@ a{
 
 .button-2 .button-i,
 .button-2 .button-i:nth-child(2) {
-    background: linear-gradient(var(--x), #00ccff,#0e1538,#0e1538,#d400d4);
+    background: linear-gradient(var(--x), #00ccff,#0e1538,#0e1538,#005eff);
 }
 .button-2 .button-i:nth-child(2) {
     filter: blur(10px);
